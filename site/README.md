@@ -1,4 +1,4 @@
-PROJET CV 
+# PROJET CV 
 > Maïde Akdede (2285)\
 > Année académique 2019-2020\
 > [Accéder à l'énoncé du projet](https://github.com/hepl-dw/projet-cv)
@@ -14,7 +14,7 @@ PROJET CV
 
     Étant adepte du shopping en ligne, j'ai choisi ce site pour son style particulier.
     
-    Des couleurs très POP, des ombrages bien visibles, très décalés et bien colorés,
+    Des couleurs très POP, des ombrages bien visibles, très décalés et bien colorés.
     
-    
+    Je pense que ça sera un très bon challenge pour moi d'essayer de le reproduire le plus fidèlement que possible tout en l'adaptant à un "CV", tout en comprenant la construction de base du site.
     

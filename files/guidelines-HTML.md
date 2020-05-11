@@ -1,8 +1,10 @@
 # Guidelines HTML
-
-> - [Guidelines Alsacreations Github](https://github.com/alsacreations/guidelines/blob/master/Guidelines-HTML.md)
+> Les Guidelines HTML viennent des liens suivants: 
+>
+> - [Guidelines HTML AlsaCreations Github](https://github.com/alsacreations/guidelines/blob/master/Guidelines-HTML.md)
 > - [Guidelines W3Schools](https://www.w3schools.com/html/html5_syntax.asp)
-> - [MDN HTML Guidelines]()
+> - [MDN HTML Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML)
+> - [Front End Checklist from The David Dias](https://github.com/thedaviddias/Front-End-Checklist) 
 * * *
 ## Généralités 
 
@@ -12,6 +14,7 @@
 - [ ] Séparer nom des fichiers, id, class, img par un **tiret**
 - [ ] noms des éléments attribut en minuscules
 - [ ] Préconiser double quotes html, et simple quote dans PHP et JS 
+- [ ] WebFonts
 ## HEAD 
 
 - [ ] `<!doctype html>`
@@ -42,7 +45,6 @@
 ## PERFORMANCES
 
 - [ ] Limiter le nombre de ressources (css, images, scripts, fonts)
-- [ ]
 
 ## TERMINER AVEC 
 - [ ] Total validator 

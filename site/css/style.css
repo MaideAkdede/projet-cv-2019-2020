@@ -1,52 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* - - - - - -  I M P O R T S - - - - - - */
+@import "reset.css";
+@import "font-face.css";
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* - - - - - - - - - - - - - - END OF RESET- - - - - -  - - - - - - - - */
+/* - - - - - -  L I E N - D - E V I T E M E N T S - - - - - - */
 .skip-links {
     position: absolute;
 }
@@ -60,4 +16,279 @@ table {
 }
 .skip-links a:focus {
     position: static;
+}
+/* - - - - - -  G E N E R A L - - - - - - */
+body {
+  min-height: 100vh;
+  font-family: "Noway Web","Gill Sans","Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.link::after{
+  width: 100%;
+  height: .5em;
+  content: "";
+  top: .8em;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  background-color: #66ff96;
+}
+.link:first-child{
+  display: inline-block;
+}
+.align-center {
+  text-align: center;
+}
+.row-direction {
+  display: flex;
+  flex-direction: row;
+}
+.is-hidden {
+  position: absolute;
+  left: -9999px;
+  padding: 0.5em;
+  background: #000;
+  color:#fff;
+  text-decoration: none;
+}
+div p{
+  line-height: 1.8em;
+  font-family: "Noway Web Regular";
+  font-weight: 400;
+}
+.rating-stars {
+  padding: 0.74rem 0;
+}
+.info {
+  margin: 1rem 0 2.5rem;
+  padding: 1.5rem;
+  background-color: #f7edff;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: 16px;
+}
+.info-text{
+  font-family: "Noway Web Medium";
+}
+.info-logo img {
+  max-width: 26px;
+  max-height: 26px;
+}
+.go-to-projet {
+  align-items: center;
+}
+.go-to-project--div {
+  border-radius: 3px;
+}
+.go-to-project--div:first-child{
+  font-family:"Druk Wide Heavy";
+  font-size: 0.75rem;
+  flex-grow: 1;
+  background-color: #66ff96;
+  padding: 23px 0;
+  text-align: center;
+}
+.heart{
+ margin-left: 12px;
+ background-color: #f5f5f5;
+}
+.heart img{
+  margin: 9.5px 11px;
+}
+.about-me{
+  margin: 2.5rem 0; ;
+}
+.section {
+  border-bottom: 1px solid #d9d9d9;
+}
+.section:first-of-type{
+   padding-bottom: 1.5rem;
+}
+.section-header{
+  align-items: center;
+  align-content: center;
+  padding: 1rem 0;
+}
+.section-title {
+  flex-grow: 1;
+  font-family: "Druk Wide Medium";
+  font-size: 0.875em;
+}
+.is-open {
+  transform: rotate(45deg);
+}
+.is-active {
+  text-decoration: underline;
+}
+.blur-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.text-to-hide{
+  display: none;
+}
+.blur::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: -webkit-linear-gradient(hsla(0,0%,100%,0),#fff);
+  background-image: linear-gradient(hsla(0,0%,100%,0),#fff);
+}
+/* - - - - - -  F O N T S - - - - - - */
+.link{
+  font-family:"Druk Wide Heavy",
+  "Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 0.75em;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.prog-name{
+  font-family:"Druk Wide Heavy",
+  "Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 0.625em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.prog-info {
+  font-family: "Noway Web Regular";
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.regular {
+  font-family:"Druk Text Medium";
+  font-size: 1.9375rem;
+  margin-bottom: 0.5161290323em;
+  letter-spacing: 2px;
+}
+.content{
+  background-color: rgb(0,228,200);
+}
+.prog {
+  margin: 15px 0;
+  padding-left: 15px;
+  position: relative;
+}
+.prog-y {
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+.prog-item {
+  margin-right: 15px;
+}
+.prog h2 {
+  font-family: "Druk Medium Italic";
+  font-size: 1.5em;
+}
+.prog-y::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  top: 1rem;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(0,228,200);
+  margin: 0;
+  padding: 0;
+}
+.project-h1 {
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.1612903226em;
+
+}
+/* - - - - - -  D E S K T O P  - - - - - - */
+.img-bubbles {
+  display: none;
+}
+.right-grid{
+  padding: 2.4%;
+}
+
+
+/* - - - - - -  M O B I L E  - - - - - - */
+@media screen and (max-width: 1025px){
+
+  /* - - - - - -  H E A D E R  - - - - - - */
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 56px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left {
+    padding-left: 12px;
+    justify-content: flex-start;
+  }
+  .header-center{
+    justify-self: center;
+  }
+  .header-right {
+    justify-content: flex-end;
+  }
+  .header-card{
+    margin-left: .5em;
+    padding-right: 12px;
+  }
+  .header-burger-menu{
+    padding-right: 12px;
+  }
+
+  /* - - - - - -  C O N T E N T - I M G  - - - - - - */
+  .content--align{
+      text-align: center;
+      padding: calc(2.4% + 56px) 2.4% 0;
+  }
+  .img{
+    position: relative;
+    top: 56px;
+    margin-top: -56px;
+    margin-bottom: 100px;
+  }
+  .img-bubbles {
+    display: flex;
+    justify-content: center;
+    margin-top:1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  .img-bubble {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 7px;
+    height: 7px;
+    background-color: #adadad;
+    border-radius: 50%;
+  }
+  .img-bubble:not(:first-child) {
+    margin-left: 9px;
+  }
+  .img-big img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* - - - - - -  R E S P O N S I V E - 3 1 5 - - - - - - */
+@media screen and (max-width: 315px) {
+  .header-logo img{
+    max-width: 100%;
+    height: auto;
+
+  }
 }

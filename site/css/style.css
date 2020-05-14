@@ -1,7 +1,6 @@
 /* - - - - - -  I M P O R T S - - - - - - */
 @import "reset.css";
 @import "font-face.css";
-
 /* - - - - - -  L I E N - D - E V I T E M E N T S - - - - - - */
 .skip-links {
     position: absolute;
@@ -286,7 +285,6 @@ div p{
   .header-burger-menu{
     padding-right: 12px;
   }
-
   /* - - - - - -  C O N T E N T - I M G  - - - - - - */
   .content--align{
       text-align: center;

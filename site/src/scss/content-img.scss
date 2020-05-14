@@ -1,0 +1,36 @@
+/* - - - - - -  M O B I L E  - - - - - - */
+@media screen and (max-width: 1025px){
+  .content--align{
+    text-align: center;
+    padding: calc(2.4% + 56px) 2.4% 0;
+  }
+  .img{
+    position: relative;
+    top: 56px;
+    margin-top: -56px;
+    margin-bottom: 100px;
+  }
+  .img-bubbles {
+    display: flex;
+    justify-content: center;
+    margin-top:1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  .img-bubble {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 7px;
+    height: 7px;
+    background-color: #adadad;
+    border-radius: 50%;
+  }
+  .img-bubble:not(:first-child) {
+    margin-left: 9px;
+  }
+  .img-big img{
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,50 @@
+/* - - - - - -  COMMENT SECTION AT THE END OF THE PAGE - - - - - - */
+.project {
+  margin: 2.5em;
+  padding: 20px;
+  background-color: #f5f5f5;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+.project-title{
+  font-family: "Druk Medium Italic","Gill Sans","Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 2.125rem;
+  margin-top: 0.2em;
+}
+.project-comment {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.project-info{
+  font-style: italic;
+  min-width: 100px;
+  font-size: 14px;
+  display: inline-block;
+  width: 150px;
+}
+
+.project-h1 {
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.1612903226em;
+}
+.project-first-line {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.five-star {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.vote {
+  flex-grow: 1;
+  text-align: center;
+  border-top: 1px solid #d9d9d9;
+  padding: 15px;
+}
+.vote:first-of-type {
+  border-right: 1px solid #d9d9d9;
+}

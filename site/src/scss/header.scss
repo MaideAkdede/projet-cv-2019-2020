@@ -1,0 +1,36 @@
+/* - - - - - -  D E S K T O P  - - - - - - */
+/* - - - - - -  M O B I L E  - - - - - - */
+@media screen and (max-width: 1025px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 56px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-left {
+    padding-left: 12px;
+    justify-content: flex-start;
+  }
+  .header-center {
+    justify-self: center;
+  }
+  .header-right {
+    justify-content: flex-end;
+  }
+  .header-card {
+    margin-left: .5em;
+    padding-right: 12px;
+  }
+  .header-burger-menu {
+    padding-right: 12px;
+  }
+}
+/* - - - - - -  R E S P O N S I V E - 3 1 5 - - - - - - */
+@media screen and (max-width: 315px) {
+  .header-logo img{
+    max-width: 100%;
+    height: auto;
+  }
+}

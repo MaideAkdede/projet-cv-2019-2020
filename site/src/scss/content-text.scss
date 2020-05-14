@@ -1,0 +1,138 @@
+/* - - - - - -  D E S C R I P T I O N  S E C T I O N - - - - - - */
+.link::after{
+  width: 100%;
+  height: .5em;
+  content: "";
+  top: .8em;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  background-color: #66ff96;
+}
+.link:first-child{
+  display: inline-block;
+}
+.align-center {
+  text-align: center;
+}
+.row-direction {
+  display: flex;
+  flex-direction: row;
+}
+.rating-stars {
+  padding: 0.74rem 0;
+}
+.info {
+  margin: 1rem 0 2.5rem;
+  padding: 1.5rem;
+  background-color: #f7edff;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: 16px;
+}
+.info-logo img {
+  max-width: 26px;
+  max-height: 26px;
+}
+.go-to-projet {
+  align-items: center;
+}
+.go-to-project--div {
+  border-radius: 3px;
+}
+.go-to-project--div:first-child{
+  flex-grow: 1;
+  background-color: #66ff96;
+  padding: 23px 0;
+}
+.heart{
+  margin-left: 12px;
+  background-color: #f5f5f5;
+}
+.heart img{
+  margin: 9.5px 11px;
+}
+.about-me{
+  margin: 2.5rem 0; ;
+}
+.section {
+  border-bottom: 1px solid #d9d9d9;
+}
+.section:first-of-type{
+  padding-bottom: 1.5rem;
+}
+.section-header{
+  align-items: center;
+  align-content: center;
+  padding: 1rem 0;
+}
+.section-title {
+  flex-grow: 1;
+}
+.is-open {
+  transform: rotate(45deg);
+}
+.is-active {
+  text-decoration: underline;
+}
+.blur-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.text-to-hide{
+  display: none;
+}
+.blur::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: -webkit-linear-gradient(hsla(0,0%,100%,0),#fff);
+  background-image: linear-gradient(hsla(0,0%,100%,0),#fff);
+}
+/* - - - - - -  SECTION WITH THE PROGRAM LOGOS - - - - - - */
+.prog-name{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.regular {
+  margin-bottom: 0.5161290323em;
+}
+.content{
+  background-color: rgb(0,228,200);
+}
+.prog {
+  margin: 2.5em 0;
+  padding-left: 2em;
+  position: relative;
+}
+.prog-y {
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+.prog-item {
+  margin-right: 2em;
+}
+.prog h2 {
+  font-family: "Druk Medium Italic","Gill Sans","Trebuchet MS",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+}
+.prog-y::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  top: 1rem;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background-color: rgb(0,228,200);
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+/* - - - - - -  L I E N - D - E V I T E M E N T S - - - - - - */
+.skip-links {
+  position: absolute;
+}
+.skip-links a {
+  position: absolute;
+  left: -9999px;
+  padding: 0.5em;
+  background: #000;
+  color:#fff;
+  text-decoration: none;
+}
+.skip-links a:focus {
+  position: static;
+}
+/* - - - - - -  HIDDEN FOR ACCESSIBILITY - - - - - - */
+
+.is-hidden {
+  position: absolute;
+  left: -9999px;
+  padding: 0.5em;
+  background: #000;
+  color:#fff;
+  text-decoration: none;
+}
